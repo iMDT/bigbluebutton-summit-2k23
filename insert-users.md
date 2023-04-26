@@ -25,7 +25,7 @@ DOC
 
 ```sh
 while [ true ] ; do 
-  sleep 0.1; 
+  sleep 1; 
   QTT=42 ; 
   (
         sudo -u postgres psql -U postgres -d bigbluebutton <<DOC
